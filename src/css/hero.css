@@ -47,8 +47,6 @@
   fill: #fff;
 }
 
-.photographer-pic {}
-
 .hero-img {
   display: flex;
   flex-direction: column;
@@ -64,6 +62,58 @@
 .hero-image {
   display: flex;
   padding-bottom: 8px;
+  gap: 44px;
+}
+
+.happy-studens-container {
+  position: relative;
+  width: 109px;
+  height: 44px;
+}
+
+.happy-studens-container picture {
+  display: block;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+}
+
+.happy-studens-container picture:nth-child(1) {
+  top: 0;
+  left: 64px;
+}
+
+.happy-studens-container picture:nth-child(2) {
+  top: 0;
+  left: 32px;
+}
+
+.happy-studens-container picture:nth-child(3) {
+  top: 0;
+  left: 0px;
+}
+
+.hero-star-and-text-container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.hero-reviews-text {
+  margin-bottom: 8px;
+  color: var(--color-secondary-text);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+}
+
+.hero-numbers-text {
+  color: var(--color-primary-text);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.125;
+  letter-spacing: -0.04em;
 }
 
 .svg-container {
