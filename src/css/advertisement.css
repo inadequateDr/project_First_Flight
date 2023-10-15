@@ -20,7 +20,7 @@
   overflow: hidden;
   font-size: 59px;
   line-height: 64px;
-  letter-spacing: -1.18px;
+  letter-spacing: -0.07em;
   text-transform: uppercase;
 }
 
@@ -56,7 +56,7 @@
 .title-h2 {
   font-size: 40px;
   line-height: 50px;
-  letter-spacing: -0.8px;
+  letter-spacing: -0.05em;
   text-transform: uppercase;
 }
 
@@ -75,7 +75,7 @@
   overflow: hidden;
   font-size: 40px;
   line-height: 50px;
-  letter-spacing: -0.8px;
+  letter-spacing: -0.05em;
   text-transform: uppercase;
 }
 
@@ -111,7 +111,7 @@
 .title-h2 {
   font-size: 28px;
   line-height: 32px;
-  letter-spacing: -0.56px;
+  letter-spacing: -0.035em;
   text-transform: uppercase;
 }
 
@@ -130,7 +130,7 @@
   overflow: hidden;
   font-size: 28px;
   line-height: 32px;
-  letter-spacing: -0.56px;
+  letter-spacing: -0.035em;
   text-transform: uppercase;
 }
 
